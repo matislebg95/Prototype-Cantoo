@@ -1,0 +1,10 @@
+.images {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+}
+.image {
+    margin: 3%;
+    vertical-align: middle;
+}

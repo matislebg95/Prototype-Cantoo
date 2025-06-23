@@ -1,0 +1,79 @@
+/* Suppression des marges et du padding par défaut */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style de la barre de navigation */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style des liens de la barre de navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 20em;
+}
+
+/* Changement de couleur au survol */
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.titre {
+    text-align: center;
+    color: #111;
+}
+.paragraphe {
+    color: #111;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.page {
+    background-color: #fff;
+}
+
+.bouton {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+
+.pdf-icon {
+  fill: white;
+  width: 1em;
+  height: 1em;
+  margin-left: 8px;
+}
+
+.droite {
+    text-align: right;
+    margin-right: 10%;
+}
